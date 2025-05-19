@@ -34,12 +34,11 @@ public class Main {
         if (mathNote > 0 && mathNote < 100 && physicNote > 0 && physicNote < 100 && historyNote > 0 && historyNote < 100 && azerbaijaniNote > 0 && azerbaijaniNote < 100 && musicNote > 0 && musicNote < 100) {
             averageNote = (mathNote + physicNote + historyNote + azerbaijaniNote + musicNote) / 5;
             if (averageNote >= 55) {
-                System.out.println("Average note is: " + averageNote);
                 System.out.println("You are passed the class");
             } else {
-                System.out.println("Average note is: " + averageNote);
                 System.out.println("You are not passed the class");
             }
+            System.out.println("Average note is: " + averageNote);
         }
 
 
