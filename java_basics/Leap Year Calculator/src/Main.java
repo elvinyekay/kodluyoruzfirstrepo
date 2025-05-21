@@ -7,10 +7,14 @@ public class Main {
         System.out.println("Enter the year: ");
         int year = scanner.nextInt();
 
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-            System.out.println(year + " is a leap year! ");
-        } else {
-            System.out.println(year + " is not a leap year! ");
+        if (year < 0){
+            System.out.println("Invalid year");
+        }else {
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+                System.out.println(year + " is a leap year! ");
+            } else {
+                System.out.println(year + " is not a leap year! ");
+            }
         }
     }
 }
