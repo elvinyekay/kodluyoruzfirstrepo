@@ -22,7 +22,7 @@ public class Main {
                 System.out.println("Invalid day");
             }
         } else if (month == 2) {
-            if (day >= 1 && day <= 31) {
+            if (day >= 1 && day <= 28) {
                 if (day < 22) {
                     System.out.println("Aquarius");
                 } else {
@@ -42,7 +42,7 @@ public class Main {
                 System.out.println("Invalid day");
             }
         } else if (month == 4) {
-            if (day >= 1 && day <= 31) {
+            if (day >= 1 && day <= 30) {
                 if (day < 22) {
                     System.out.println("Aries");
                 } else {
@@ -62,7 +62,7 @@ public class Main {
                 System.out.println("Invalid day");
             }
         } else if (month == 6) {
-            if (day >= 1 && day <= 31) {
+            if (day >= 1 && day <= 30) {
                 if (day < 22) {
                     System.out.println("Gemini");
                 } else {
@@ -92,7 +92,7 @@ public class Main {
                 System.out.println("Invalid day");
             }
         } else if (month == 9) {
-            if (day >= 1 && day <= 31) {
+            if (day >= 1 && day <= 30) {
                 if (day < 22) {
                     System.out.println("Virgo");
                 } else {
@@ -112,7 +112,7 @@ public class Main {
                 System.out.println("Invalid day");
             }
         } else if (month == 11) {
-            if (day >= 1 && day <= 31) {
+            if (day >= 1 && day <= 30) {
                 if (day < 22) {
                     System.out.println("Scorpio");
                 } else {
