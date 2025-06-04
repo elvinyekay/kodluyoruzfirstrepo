@@ -22,7 +22,7 @@ public class Main {
         }
 
         System.out.println(Arrays.toString(arr));
-        System.out.println("Closest number smaller than the entered number: " + closestMin);
-        System.out.println("Closest number larger than the entered number: " + closestMax);
+        System.out.println("Closest smaller number than the entered number: " + closestMin);
+        System.out.println("Closest larger number than the entered number: " + closestMax);
     }
 }
