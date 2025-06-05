@@ -14,6 +14,7 @@ public class Main {
         int rowCount = matrix.length;
         int colCount = matrix[0].length;
         int[][] result = new int[colCount][rowCount];
+
         for (int i = 0; i < colCount; i++) {
             for (int j = 0; j < rowCount; j++) {
                 result[i][j] = matrix[j][i];
