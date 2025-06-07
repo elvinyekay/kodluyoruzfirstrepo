@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println(isPalindromeII("abbas"));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter word to check is it palindrome?");
+        String str = scanner.nextLine();
+        System.out.println(isPalindromeII(str));
     }
 
     public static boolean isPalindrome(String str) {
